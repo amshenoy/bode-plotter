@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Manrope&display=swap');
+
+*{
+	font-family: 'Manrope', sans-serif;
+	/* font-family: 'Lato', sans-serif; */
+}
+body {
+	/* font-family: "Segoe UI", Helvetica,Verdana,  Arial; */
+	/* font-family: "Segoe UI","proxima-nova","proxima-nova-1","proxima-nova-2","Proxima Nova", Helvetica Neue, Helvetica,Verdana,  Arial; */
+	font-size: 0.95em;
+	letter-spacing: 0.0px;
+	line-height: 1.5;
+	text-align:justify;
+	background-color: #F3F3F3;
+}
+
+input[type=text] {
+	font-family: Verdana, Serif, Arial;
+	font-size: 0.9em;
+}
+
+table.table, .table th, .table td {
+	border: 1px solid #aaaaaa;
+	border-collapse: collapse;
+	padding: 5px;
+}
+
+html,body { height:100%; }
+
+
+.inline-div {
+	display:inline-block;
+}
+
+.inline-txtarea {
+	resize: none;
+	height: 40px;
+}
+	
+#container {
+	min-height:60%;
+	position: relative;
+}
+
+#pages {
+	background-color:white;
+	position:absolute;
+	margin: 30px 2% 10px;
+	width: 90%;
+	padding: 30px 20px;
+	border: 1px solid #AAAAAA;
+	height:auto;
+	min-height:60%;
+}
+
+.close {
+	float: right;
+	font-size: 0.7em;
+}
+
+.error {
+	color: red;
+	font-weight: bold;
+}
+.code {
+	font-family:monospace;
+	font-size:1.1em;
+}
+.small {
+	font-size: 0.8em;
+}
+
+.plot {
+}
+ul {
+	padding-left:20px;
+}
+a {
+	color: #0055BB;
+	text-decoration: none;
+}
+a.action {
+	font-size: 1.2em;
+}
+a.section {
+	color: #00BBDD;
+}
+a.page {
+	color: #0055BB;
+}
+a:hover {
+	color: #00CCFF;
+}
+.toclevel0 {
+	font-size:19px;
+}
+
+.toclevel1 {
+	font-size:17px;
+	left:10px;
+	position:relative;
+}
+.tocpage {
+	left:100px;
+	position:relative;
+}
+
+
+div.shadow {
+	-moz-box-shadow: 0px 2px 2px #444;
+  -webkit-box-shadow: 0px 2px 2px #444;
+  box-shadow: 0px 2px 2px #444;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=0, Color='#444444')";
+  filter: progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=0, Color='#444444');
+}
+
+.smallbox {
+	width:20px; height:20px; display: inline-block; border: 1px solid; vertical-align: middle;
+}

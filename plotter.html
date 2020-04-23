@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Bode Plotter</title>
+	<link href="./assets/css/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="pages">
+		
+        <center>
+			<h1>Bode Plotter</h1>
+			
+			<div class="inline-div">
+			<p>Numerator</p>
+			<textarea id="zeros-input" class="inline-txtarea"></textarea>
+			</div>
+		
+			<div class="inline-div">
+			<p>Denominator</p>
+			<textarea id="poles-input" class="inline-txtarea"></textarea>
+			</div>
+		
+            <input type="button" value="Plot" id="btnplot" style="border: none; padding: 10px;">
+			</br></br>
+			
+			<div id="mag-plot" class="inline-div" style="width: 600px; height: 300px; padding: 0px; position: relative;"></div>
+            <div id="phase-plot" class="inline-div" style="width: 600px; height: 300px; padding: 0px; position: relative;"></div>
+			
+        </center>
+	
+    </div>
+	
+	<script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/flot/0.8.1/excanvas.min.js"></script>
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/flot/0.8.1/jquery.flot.min.js"></script>
+	<script type="text/javascript" src="./assets/js/jquery.flot.axislabels.js"></script>
+	<script type="text/javascript" src="./assets/js/flot/jquery.flot.axislabels.js"></script>
+	<script type="text/javascript" src="./assets/js/flot/jquery.flot.text.min.js"></script>
+	<script type="text/javascript" src="./assets/js/flot/jquery.flot.dashes.js"></script>
+	<script type="text/javascript" src="./assets/js/bode.min.js"></script>
+		
+</body>
+
+</html>
