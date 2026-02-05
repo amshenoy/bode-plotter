@@ -30,5 +30,7 @@ Denominator
 1, 2, 1
 ```
 
+Solution by Wolfram Alpha:
+https://www.wolframalpha.com/input?i=bode+plot+of+%28%28s%5E2%2B2s%2B3%29*%282s%2B11%29%29%2F%28%28s%5E2%2B3s%2B2%29*%28s%5E2%2B2s%2B1%29%29
 
 
