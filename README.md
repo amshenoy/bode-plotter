@@ -12,7 +12,9 @@ Plotting by solving for quadratic zeros and poles.
 
 Bode Plot 
 
-$ \frac{(s^2 + 2s + 3)(2s + 11)}{(s^2 + 3s + 2)(s^2 + 2s + 1)} $
+```math
+\frac{(s^2 + 2s + 3)(2s + 11)}{(s^2 + 3s + 2)(s^2 + 2s + 1)}
+```
 
 > ((s^2+2s+3)*(2s+11))/((s^2+3s+2)*(s^2+2s+1))
 
